@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false" >
+    <item android:duration="400" android:drawable="@android:drawable/sym_action_call">
+        <scale
+                android:scaleGravity="center" />
+    </item>
+    <item android:duration="300" android:drawable="@android:drawable/sym_call_incoming">
+        <scale android:scaleGravity="center" />
+    </item>
+    <item android:duration="400" android:drawable="@android:drawable/sym_action_call">
+        <scale android:scaleGravity="center" />
+    </item>
+    <item android:duration="300" android:drawable="@android:drawable/sym_call_missed">
+        <scale android:scaleGravity="center" />
+    </item>
+</animation-list>
